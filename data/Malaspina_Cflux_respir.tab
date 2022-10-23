@@ -1,0 +1,169 @@
+/* DATA DESCRIPTION:
+Citation:	Hernández-León, Santiago (2020): Carbon export and sequestration in the ocean. PANGAEA, https://doi.org/10.1594/PANGAEA.923832
+Abstract:	Carbon export (from the epipelagic towards the mesopelagic zone) and sequestration (from the mesopelagic towards the bathypelagic zone) in the ocean are reviewed. Particulate organic carbon (POC) flux, and active flux due to migrant zooplankton and micronekton are shown from the epipelagic to the mesopelagic zone, and from the latter to the bathypelagic zone. Values towards the meso- and bathypelagic zones are compared in oligotrophic and productive systems. Zooplankton and prokaryote respiration in the meso- and bathypelagic zones of the ocean are also reviewed for oligotrophic and productive systems. Values were integrated over a depth layer and are given as the flux or respiration under one square meter (in g/m**2/a) between e.g. 100 m and 1000 m depth.
+Keyword(s):	active flux; biological carbon pump; Deep sea; passive flux; Respiration
+Related to:	Bode, Antonio; Mompeán, Carmen (2020): Stable isotope data of mesozooplankton for depth layers along the Malaspina-2010 expedition. PANGAEA, https://doi.org/10.1594/PANGAEA.919314
+	Fraile-Nuez, Eugenio; Hernández-León, Santiago (2020): Lowered Acoustic Doppler Current Profiler (LADCP) backscatter attached to the rosette sampler during the Malaspina Circumnavigation Expedition. Spanish Institute of Oceanography, PANGAEA, https://doi.org/10.1594/PANGAEA.922619
+	Hernández-León, Santiago; Bode, Antonio; Irigoien, Xabier; Echevarría, Fidel; Fernández de Puelles, Maria Luz; González-Gordillo, Ignacio; Acuña, José Luis (2020): Zooplankton biomass during the Malaspina Cruise. PANGAEA, https://doi.org/10.1594/PANGAEA.922974
+	Hernández-León, Santiago; Koppelmann, Rolf (2020): Review of global zooplankton biomass in the bathypelagic zone. PANGAEA, https://doi.org/10.1594/PANGAEA.923149
+	Hernández-León, Santiago; Koppelmann, Rolf; Fraile-Nuez, Eugenio; Bode, Antonio; Mompeán, Carmen; Irigoien, Xabier; Olivar Buera, Maria Pilar; Echevarría, Fidel; Fernández de Puelles, Maria Luz; González-Gordillo, Juan Ignacio; Cózar, Andrés; Acuña, José Luis; Agustí, Susana; Duarte, Carlos Manuel (2020): Large deep-sea zooplankton biomass mirrors primary production in the global ocean. Nature Communications, 11, 6048, https://doi.org/10.1038/s41467-020-19875-7
+Further details:	Arístegui, Javier; Agustí, Susana; Duarte, Carlos Manuel (2003): Respiration in the dark ocean. Geophysical Research Letters, 30(2), 1041, https://doi.org/10.1029/2002GL016227
+	Arístegui, Javier; Agustí, Susana; Middelburg, Jack J; Duarte, Carlos Manuel (2005): Respiration in the mesopelagic and bathypelagic zones of the oceans. In: del Giorgio, Paul; Williams, Peter (eds.), Respiration in Aquatic Ecosystems, Oxford University Press, 181-205, https://doi.org/10.1093/acprof:oso/9780198527084.003.0010
+	Arístegui, Javier; Barton, Eric D; Montero, María F; García-Muñoz, Mercedes; Escánez, José (2003): Organic carbon distribution and water column respiration in the NW Africa-Canaries Coastal Transition Zone. Aquatic Microbial Ecology, 33, 289-301, https://doi.org/10.3354/ame033289
+	Ariza, A; Garijo, Juan Carlos; Landeira, J M; Bordes, Fernando; Hernández-León, Santiago (2015): Migrant biomass and respiratory carbon flux by zooplankton and micronekton in the subtropical northeast Atlantic Ocean (Canary Islands). Progress in Oceanography, 134, 330-342, https://doi.org/10.1016/j.pocean.2015.03.003
+	Baltar, Federico; Arístegui, Javier; Gasol, Josep M; Sintes, Eva; Herndl, Gerhard J (2009): Evidence of prokaryotic metabolism on suspended particulate organic matter in the dark waters of the subtropical North Atlantic. Limnology and Oceanography, 54(1), 182-193, https://doi.org/10.4319/lo.2009.54.1.0182
+	Buesseler, Ken O; Lamborg, C H; Boyd, Philip W; Lam, Phoebe J; Trull, Tom W; Bidigare, Robert R; Bishop, James K B; Casciotti, Karen L; Dehairs, Frank; Elskens, Marc; Honda, Makio C; Karl, David Michael; Siegel, David A; Silver, M W; Steinberg, Deborah K; Valdes, Jim; Van Mooy, Benjamin A S; Wilson, Stephanie (2007): Revisiting carbon flux through the ocean's twilight zone. Science, 316(5824), 567-570, https://doi.org/10.1126/science.1137959
+	Childress, James J; Thuesen, E V (1992): Metabolic potential of deep-aea animals: regional and global scales. In: Rowe, Gilbert T.; Pariente, Vita (eds.), Deep-sea food chains and the global carbon cycle, Springer Netherlands, Dordrecht, 360, 217-236, https://doi.org/10.1007/978-94-011-2452-2_13
+	Fernández-Castro, B; Arístegui, Javier; Anderson, L; Montero, María F; Hernández-León, Santiago; Marañón, Emilio; Mouriño-Carballido, Beatriz (2016): Mesopelagic respiration near the ESTOC (European Station for Time-Series in the Ocean, 15.5°W, 29.1°N) site inferred from a tracer conservation model. Deep Sea Research Part I: Oceanographic Research Papers, 115, 63-73, https://doi.org/10.1016/j.dsr.2016.05.010
+	Guidi, Lionel; Legendre, Louis; Reygondeau, Gabriel; Uitz, Julia; Stemmann, Lars; Henson, Stephanie A (2015): A new look at ocean carbon remineralization for estimating deepwater sequestration. Global Biogeochemical Cycles, 29(7), 1044-1059, https://doi.org/10.1002/2014GB005063
+	Helmke, Peer; Romero, Oscar E; Fischer, Gerhard (2005): Northwest African upwelling and its effect on off-shore organic carbon export to the deep sea. Global Biogeochemical Cycles, 19(4), GB4015, https://doi.org/10.1029/2004GB002265
+	Henson, Stephanie A; Sanders, Richard J; Madsen, Esben (2012): Global patterns in efficiency of particulate organic carbon export and transfer to the deep ocean. Global Biogeochemical Cycles, 26(1), GB1028, https://doi.org/10.1029/2011GB004099
+	Hernández-León, Santiago; Ikeda, Tsutomu (2005): A global assessment of mesozooplankton respiration in the ocean. Journal of Plankton Research, 27(2), 153-158, https://doi.org/10.1093/plankt/fbh166
+	Hernández-León, Santiago; Olivar, M Pilar; Fernández de Puelles, Maria Luz; Bode, Antonio; Castellón, Arturo; López-Pérez, Cristina; Tuset, Victor M; González-Gordillo, José Ignacio (2019): Zooplankton and micronekton active flux across the tropical and subtropical Atlantic Ocean. Frontiers in Marine Science, 6, 535, https://doi.org/10.3389/fmars.2019.00535
+	Hidaka, Kiyotaka; Kawaguchi, Kouichi; Murakami, Masahiro; Takahashi, M (2001): Downward transport of organic carbon by diel migratory micronekton in the western equatorial Pacific: its quantitative and qualitative importance. Deep Sea Research Part I: Oceanographic Research Papers, 48(8), 1923-1939, https://doi.org/10.1016/S0967-0637(01)00003-6
+	Honjo, Susumu; Manganini, Steven J; Krishfield, Richard A; Francois, Roger (2008): Particulate organic carbon fluxes to the ocean interior and factors controlling the biological pump: A synthesis of global sediment trap programs since 1983. Progress in Oceanography, 76(3), 217-285, https://doi.org/10.1016/j.pocean.2007.11.003
+	Jenkins, William J; Wallace, Douglas WR (1992): Tracer based inferences of new primary production in the sea. In: Falkowski, Paul G.; Woodhead, Avril D.; Vivirito, Katherine (eds.), Primary productivity and biogeochemical cycles in the sea, Springer US, Boston, MA, 43, 299-316, https://doi.org/10.1007/978-1-4899-0762-2_17
+	Karl, David Michael; Christian, J R; Dore, John E; Hebel, Dale; Letelier, Ricardo M; Tupas, Luis M; Winn, Christopher D (1996): Seasonal and interannual variability in primary production and particle flux at Station ALOHA. Deep Sea Research Part II: Topical Studies in Oceanography, 43(2-3), 539-568, https://doi.org/10.1016/0967-0645(96)00002-1
+	Knauer, George A; Redalje, D G; Harrison, W G; Karl, David Michael (1990): New production at the VERTEX time-series site. Deep-Sea Research Part A. Oceanographic Research Papers, 37(7), 1121-1134, https://doi.org/10.1016/0198-0149(90)90054-Y
+	Koppelmann, Rolf; Weikert, Horst (1999): Temporal changes of deep-sea mesozooplankton abundance in the temperate NE Atlantic and estimates of the carbon budget. Marine Ecology Progress Series, 179, 27-40, https://doi.org/10.3354/meps179027
+	Lefèvre, Dominique; Denis, Michel; Lambert, C E; Miquel, Juan Carlos (1996): Is DOC the main source of organic matter remineralization in the ocean water column? Journal of Marine Systems, 7(2-4), 281-291, https://doi.org/10.1016/0924-7963(95)00003-8
+	Lutz, Michael J; Caldeira, Kenneth; Dunbar, Robert B; Behrenfeld, Michael J (2007): Seasonal rhythms of net primary production and particulate organic carbon flux to depth describe the efficiency of biological pump in the global ocean. Journal of Geophysical Research, 112, C10011, https://doi.org/10.1029/2006JC003706
+	Martin, J H; Knauer, George A; Karl, David Michael; Broenkow, William (1987): VERTEX: Carbon cycling in the northeast Pacific. Deep-Sea Research Part A. Oceanographic Research Papers, 34(2), 267-285, https://doi.org/10.1016/0198-0149(87)90086-0
+	Miquel, Juan Carlos; Martín, Jacobo; Gasser, Beat; Rodriguez y Baena, Alessia M; Toubal, Tarik; Fowler, Scott W (2011): Dynamics of particle flux and carbon export in the northwestern Mediterranean Sea: A two decade time-series study at the DYFAMED site. Progress in Oceanography, 91(4), 461-481, https://doi.org/10.1016/j.pocean.2011.07.018
+	Nagata, T; Fukuda, Hideki; Fukuda, Rumi; Koike, I (2000): Bacterioplankton distribution and production in deep Pacific waters: Large-scale geographic variations and possible coupling with sinking particle fluxes. Limnology and Oceanography, 45(2), 426-435, https://doi.org/10.4319/lo.2000.45.2.0426
+	Packard, Ted T; Denis, Michel; Rodier, Martine; Garfield, Paula C (1988): Deep-ocean metabolic CO2 production: calculations from ETS activity. Deep Sea Research Part A. Oceanographic Research Papers, 35(3), 371-382, https://doi.org/10.1016/0198-0149(88)90016-7
+	Packard, Ted T; Osma, Natalja; Fernández Urruzola, Igor; Codispoti, Louis A; Christensen, John P; Gómez, M (2015): Peruvian upwelling plankton respiration: calculations of carbon flux, nutrient retention efficiency, and heterotrophic energy production. Biogeosciences, 12(9), 2641-2654, https://doi.org/10.5194/bg-12-2641-2015
+	Santana-Falcón, Yeray; Alvarez-Salgado, Xose Anton; Pérez-Hernández, M Dolores; Hernández-Guerra, Alonso; Mason, Evan; Arístegui, Javier (2017): Organic carbon budget for the eastern boundary of the North Atlantic subtropical gyre: major role of DOC in mesopelagic respiration. Scientific Reports, 7(1), 10129, https://doi.org/10.1038/s41598-017-10974-y
+	Savenkoff, C; Prieur, Louis; Reys, Jean-Pierre; Lefèvre, Dominique; Dallot, S; Denis, Michel (1993): Deep microbial communities evidenced in the Liguro-Provençal front by their ETS activity. Deep Sea Research Part I: Oceanographic Research Papers, 40(4), 709-725, https://doi.org/10.1016/0967-0637(93)90067-D
+	Turley, Carol M; Mackie, P J (1994): Biogeochemical significance of attached and free-living bacteria and the flux of particles in the NE Atlantic Ocean. Marine Ecology Progress Series, 115, 191-203, https://doi.org/10.3354/meps115191
+Project(s):	Malaspina circumnavigation expedition (MALASPINA-2010) (URI: http://www.expedicionmalaspina.es/)
+	Sustainable Management of Mesopelagic Resources (SUMMER) (URI: https://summerh2020.eu/)
+	Tropical and South Atlantic climate-based marine ecosystem predictions for sustainable management (TRIATLAS) (URI: https://triatlas.w.uib.no)
+Funding:	European Commission (EC), grant/award no. 817578: Tropical and South Atlantic climate-based marine ecosystem predictions for sustainable management (URI: https://cordis.europa.eu/project/id/817578)
+	European Commission (EC), grant/award no. 817806: Sustainable management of mesopelagic resources (URI: https://cordis.europa.eu/project/id/817806)
+Parameter(s):	Reference/source (Reference) * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es)
+	Uniform resource locator/link to reference (URL ref) * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es)
+	Ocean (Ocean) * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es) * COMMENT: System
+	Depth, description (Depth desc) * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es) * COMMENT: Zone
+	Parameter (Parameter) * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es)
+	Organisms (Org) * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es)
+	DEPTH, water [m] (Depth water) * GEOCODE * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es)
+	DEPTH, water [m] (Depth water) * GEOCODE * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es) * COMMENT: min of layer
+	DEPTH, water [m] (Depth water) * GEOCODE * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es) * COMMENT: max of layer
+	Carbon, flux [mg/m**2/day] (C flux) * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es) * METHOD/DEVICE: Calculated, integrated over layer depth
+	Carbon, flux per year [g/m**2/a] (C flux) * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es) * METHOD/DEVICE: Calculated, integrated over layer depth
+	Respiration rate, carbon [mol/m**3/day] (Resp C) * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es) * METHOD/DEVICE: Calculated, integrated over layer depth
+	Respiration rate, carbon [mmol/m**2/day] (Resp C) * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es) * METHOD/DEVICE: Calculated, integrated over layer depth
+	Respiration rate, carbon [mg/m**2/day] (Resp C) * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es) * METHOD/DEVICE: Calculated, integrated over layer depth
+	Respiration rate, carbon [g/m**2/a] (Resp C) * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es) * METHOD/DEVICE: Calculated, integrated over layer depth
+	Comment (Comment) * PI: Hernández-León, Santiago (https://orcid.org/0000-0002-3085-4969, shernandezleon@ulpgc.es)
+License:	Creative Commons Attribution 4.0 International (CC-BY-4.0)
+Size:	902 data points
+*/
+Reference	URL ref	Ocean (System)	Depth desc (Zone)	Parameter	Org	Depth water [m]	Depth water [m] (min of layer)	Depth water [m] (max of layer)	C flux [mg/m**2/day]	C flux [g/m**2/a]	Resp C [mol/m**3/day]	Resp C [mmol/m**2/day]	Resp C [mg/m**2/day]	Resp C [g/m**2/a]	Comment
+Martin et al. (1987)	https://doi.org/10.1016/0198-0149(87)90086-0	Oligotrophic	Mesopelagic	POC flux		150			35.5	13.00					VERTEX 14-35°N
+Knauer et al. (1990)	https://doi.org/10.1016/0198-0149(90)90054-Y	Oligotrophic	Mesopelagic	POC flux		150			31.2	11.40					VERTEX 33°N
+Karl et al. (1996)	https://doi.org/10.1016/0967-0645(96)00002-1	Oligotrophic	Mesopelagic	POC flux		150			36.0	13.10					Average HOT 1989 (Table 3)
+Karl et al. (1996)	https://doi.org/10.1016/0967-0645(96)00002-1	Oligotrophic	Mesopelagic	POC flux		150			35.0	12.80					Average HOT 1990 (Table 3)
+Karl et al. (1996)	https://doi.org/10.1016/0967-0645(96)00002-1	Oligotrophic	Mesopelagic	POC flux		150			27.0	9.90					Average HOT 1991 (Table 3)
+Karl et al. (1996)	https://doi.org/10.1016/0967-0645(96)00002-1	Oligotrophic	Mesopelagic	POC flux		150			22.0	8.00					Average HOT 1992 (Table 3)
+Karl et al. (1996)	https://doi.org/10.1016/0967-0645(96)00002-1	Oligotrophic	Mesopelagic	POC flux		150			25.0	9.10					Average HOT 1993 (Table 3)
+Hernández-León et al. (2019)	https://doi.org/10.3389/fmars.2019.00535	Oligotrophic	Mesopelagic	POC flux		150			11.3	4.10					Average sts 2-7 and 14 (Table 1)
+Miquel et al. (2011)	https://doi.org/10.1016/j.pocean.2011.07.018	Oligotrophic	Mesopelagic	POC flux		200				2.40					Average 1988-2005 (Table 2)
+Buesseler et al. (2007)	https://doi.org/10.1126/science.1137959	Oligotrophic	Mesopelagic	POC flux		150			18.0	6.60					Hawaii Aloha st.
+Buesseler et al. (2007)	https://doi.org/10.1126/science.1137959	Oligotrophic	Mesopelagic	POC flux		150			18.0	6.60					Hawaii Aloha st.
+Miquel et al. (2011)	https://doi.org/10.1016/j.pocean.2011.07.018	Oligotrophic	Bathypelagic	POC flux		1000				1.60					Mediterranean Aver. 1988-2005 (Table 2)
+Guidi et al. (2015)	https://doi.org/10.1002/2014GB005063	Oligotrophic	Bathypelagic	POC flux		2000				1.44					Range 0.1-9.3
+Henson et al. (2012)	https://doi.org/10.1029/2011GB004099	Oligotrophic	Bathypelagic	POC flux		2000				1.74					Range 0-35
+Henson et al. (2012)	https://doi.org/10.1029/2011GB004099	Oligotrophic	Bathypelagic	POC flux		2000				0.50					About 0.5 for oligotrophic gyres
+Martin et al. (1987)	https://doi.org/10.1016/0198-0149(87)90086-0	Oligotrophic	Bathypelagic	POC flux		2000				0.80					Range 0.8-7.0
+Lutz et al. (2007)	https://doi.org/10.1029/2006JC003706	Oligotrophic	Bathypelagic	POC flux		2000				0.20					Range 0.2-7.0
+Honjo et al. (2008)	https://doi.org/10.1016/j.pocean.2007.11.003	Oligotrophic	Bathypelagic	POC flux		2000				0.30					Range 0.3-7.3
+Hidaka et al. (2001)	https://doi.org/10.1016/S0967-0637(01)00003-6	Oligotrophic	Mesopelagic	Active flux		200			27.9	10.20					Western equatorial North Pacific (3°N)
+Hidaka et al. (2001)	https://doi.org/10.1016/S0967-0637(01)00003-6	Oligotrophic	Mesopelagic	Active flux		200			12.2	4.50					Western equatorial North Pacific (3° 30´N)
+Ariza et al. (2015)	https://doi.org/10.1016/j.pocean.2015.03.003	Oligotrophic	Mesopelagic	Active flux		200			6.4	2.30					Canary Current
+Hernández-León et al. (2019)	https://doi.org/10.3389/fmars.2019.00535	Oligotrophic	Mesopelagic	Active flux		200			3.2	1.20					St 3 South Equatorial Counter Current
+Hernández-León et al. (2019)	https://doi.org/10.3389/fmars.2019.00535	Oligotrophic	Mesopelagic	Active flux		200			12.6	4.60					St 6 South Equatorial Current
+Hernández-León et al. (2019)	https://doi.org/10.3389/fmars.2019.00535	Oligotrophic	Mesopelagic	Active flux		200			23.1	8.40					St 7 North Equatorial Counter Current
+Hernández-León et al. (2019)	https://doi.org/10.3389/fmars.2019.00535	Oligotrophic	Mesopelagic	Active flux		200			12.2	4.50					St 12 Canary Current
+Karl et al. (1996)	https://doi.org/10.1016/0967-0645(96)00002-1	Productive	Mesopelagic	POC flux					42.0	15.30					Coastal zone (Table 4)
+Karl et al. (1996)	https://doi.org/10.1016/0967-0645(96)00002-1	Productive	Mesopelagic	POC flux					85.0	31.00					Upwelling zone (Table 4)
+Hernández-León et al. (2019)	https://doi.org/10.3389/fmars.2019.00535	Productive	Mesopelagic	POC flux		150			26.0	9.50					Aver. sts 8 and 11 (Table 1)
+Buesseler et al. (2007)	https://doi.org/10.1126/science.1137959	Productive	Mesopelagic	POC flux		150			62.0	22.60					Northwest Pacific Subarctic gyre St K2
+Buesseler et al. (2007)	https://doi.org/10.1126/science.1137959	Productive	Mesopelagic	POC flux		150			23.0	8.40					Northwest Pacific Subarctic gyre St K2
+Helmke et al. (2005)	https://doi.org/10.1029/2004GB002265	Productive	Bathypelagic	POC flux		1000			20.6	7.50					Aver. 4 years NW Africa
+Henson et al. (2012)	https://doi.org/10.1029/2011GB004099	Productive	Bathypelagic	POC flux		2000				3.00					3-4 for equatorial and Arabian upwelling
+Martin et al. (1987)	https://doi.org/10.1016/0198-0149(87)90086-0	Productive	Bathypelagic	POC flux		2000				7.00					Range 0.8-7.0
+Lutz et al. (2007)	https://doi.org/10.1029/2006JC003706	Productive	Bathypelagic	POC flux		2000				7.00					Range 0.2-7.0
+Honjo et al. (2008)	https://doi.org/10.1016/j.pocean.2007.11.003	Productive	Bathypelagic	POC flux		2000				7.30					Range 0.3-7.3
+Hernández-León et al. (2019)	https://doi.org/10.3389/fmars.2019.00535	Productive	Mesopelagic	Active flux		200			43.0	15.70					St 9 Guinea Dome
+Hernández-León et al. (2019)	https://doi.org/10.3389/fmars.2019.00535	Productive	Mesopelagic	Active flux		200			85.0	31.00					St 11 Oceanic upwelling off C. Blanc
+Nagata et al. (2000)	https://doi.org/10.4319/lo.2000.45.2.0426	Oligotrophic	Mesopelagic	Respiration	Microplankton		100	1000				8.00	96.00	35.00	Geomean Table 10.4 Arístegui et al. (2005)
+Santana-Falcón et al. (2017)	https://doi.org/10.1038/s41598-017-10974-y	Oligotrophic	Mesopelagic	Respiration	Microplankton		200	1000						7.00	Tropical and temperate North Atlantic Ocean
+Arístegui et al. (2003a)	https://doi.org/10.1029/2002GL016227	Oligotrophic	Mesopelagic	Respiration	Microplankton		200	1000						35.00	
+Arístegui et al. (2003b)	https://doi.org/10.3354/ame033289	Oligotrophic	Mesopelagic	Respiration	Microplankton		>200					4.00	48.00	17.50	Lower range in the Eastern Subtropical North Atlantic gyre
+Arístegui et al. (2003b)	https://doi.org/10.3354/ame033289	Oligotrophic	Mesopelagic	Respiration	Microplankton		>200					8.00	96.00	35.00	Higher range in the Eastern Subtropical North Atlantic gyre
+Jenkins and Wallace (1992)	https://doi.org/10.1007/978-1-4899-0762-2_17	Oligotrophic	Mesopelagic	Respiration	Microplankton		200	1000						39.60	Atlantic Ocean (Sagasso Sea)
+Packard et al. (1988)	https://doi.org/10.1016/0198-0149(88)90016-7	Oligotrophic	Mesopelagic	Respiration	Microplankton		200	1000						18.00	Atlantic Ocean (Sagasso Sea)
+Arístegui et al. (2003a)	https://doi.org/10.1029/2002GL016227	Oligotrophic	Mesopelagic	Respiration	Microplankton		200	1000						28.80	Atlantic Ocean (Canary Islands)
+Savenkoff et al. (1993)	https://doi.org/10.1016/0967-0637(93)90067-D	Oligotrophic	Mesopelagic	Respiration	Microplankton		200	800						26.40	Mediterranean Sea (west)
+Lefevre et al. (1996)	https://doi.org/10.1016/0924-7963(95)00003-8	Oligotrophic	Mesopelagic	Respiration	Microplankton		200	1000						14.40	Mediterranean Sea (west)
+Baltar et al. (2009)	https://doi.org/10.4319/lo.2009.54.1.0182	Oligotrophic	Mesopelagic	Respiration	Microplankton		200	1000			5.90	4.72	56.60	20.70	North Equatorial Counter Current (ETS in 900-1000 m depth)
+Baltar et al. (2009)	https://doi.org/10.4319/lo.2009.54.1.0182	Oligotrophic	Mesopelagic	Respiration	Microplankton		200	1000			2.49	1.99	23.90	8.70	Subtropical Gyre  (ETS in 900-1000 m depth)
+Baltar et al. (2009)	https://doi.org/10.4319/lo.2009.54.1.0182	Oligotrophic	Mesopelagic	Respiration	Microplankton		200	1000			16.30	13.04	156.50	57.10	North Equatorial Counter Current (ETS in 250-500 m depth OMZ)
+Baltar et al. (2009)	https://doi.org/10.4319/lo.2009.54.1.0182	Oligotrophic	Mesopelagic	Respiration	Microplankton		200	1000			13.50	10.80	129.60	47.30	Subtropical Gyre (ETS in 250-500 m depth OMZ)
+Fernández-Castro et al. (2016)	https://doi.org/10.1016/j.dsr.2016.05.010	Oligotrophic	Mesopelagic	Respiration	Microplankton		150	700						30.70	Mean value Time series station ESTOC Canary Current
+Nagata et al. (2000)	https://doi.org/10.4319/lo.2000.45.2.0426	Oligotrophic	Bathypelagic	Respiration	Microplankton		>1000					0.10	1.20	0.40	N Subtropical Pacific
+Packard et al. (1988)	https://doi.org/10.1016/0198-0149(88)90016-7	Oligotrophic	Bathypelagic	Respiration	Microplankton		>1000							8.00	Sargasso Sea
+Hernández-León and Ikeda (2005)	https://doi.org/10.1093/plankt/fbh166	Oligotrophic	Mesopelagic	Respiration	Zooplankton		150	1000				0.21	2.50	0.90	Lower range of values for the mesopelagic zone
+Hernández-León and Ikeda (2005)	https://doi.org/10.1093/plankt/fbh166	Oligotrophic	Mesopelagic	Respiration	Zooplankton		150	1000				14.00	168.00	61.30	Higher range of values for the mesopelagic zone
+Hernández-León and Ikeda (2005)	https://doi.org/10.1093/plankt/fbh166	Oligotrophic	Mesopelagic	Respiration	Zooplankton		150	1000				1.70	20.40	7.40	Average value for the mesopelagic zone
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					5.22	1.90	Coca I cruise. Respiration by day. Oceanic zone Canary Current
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					12.17	4.40	Coca I cruise. Respiration by day. Oceanic zone Canary Current
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					10.54	3.80	Coca I cruise. Respiration by day. Oceanic zone Canary Current
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					9.40	3.40	Coca I cruise. Respiration by day. Oceanic zone Canary Current
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					10.57	3.90	Coca I cruise. Respiration by day. Oceanic zone Canary Current
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					26.25	9.60	Coca I cruise. Respiration by day. Oceanic zone Canary Current
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					18.66	6.80	Coca I cruise. Respiration by day. Oceanic zone Canary Current
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					10.55	3.90	Coca I cruise. Respiration by night. Oceanic zone Canary Current
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					20.06	7.30	Coca I cruise. Respiration by night. Oceanic zone Canary Current
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					4.17	1.50	Coca I cruise. Respiration by night. Oceanic zone Canary Current
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					12.88	4.70	Coca I cruise. Respiration by night. Oceanic zone Canary Current
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					8.59	3.10	Coca I cruise. Respiration by night. Oceanic zone Canary Current
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					26.99	9.90	Coca I cruise. Respiration by night. Oceanic zone Canary Current
+Hernández-León (unpublished)		Oligotrophic	Mesopelagic	Respiration	Zooplankton		200	900					21.20	7.70	Coca I cruise. Respiration by night. Oceanic zone Canary Current
+Childress and Thuesen (1992)	https://doi.org/10.1007/978-94-011-2452-2_13	Oligotrophic	Bathypelagic	Respiration	Zooplankton		1000	4000					0.10	0.05	Hypothetical central oceanic region
+Koppelmann and Weikert (1999)	https://doi.org/10.3354/meps179027	Oligotrophic	Bathypelagic	Respiration	Zooplankton		1000	2250				0.11	1.30	0.50	Spring
+Koppelmann and Weikert (1999)	https://doi.org/10.3354/meps179027	Oligotrophic	Bathypelagic	Respiration	Zooplankton		1000	2250				0.32	3.80	1.40	Summer
+Koppelmann and Weikert (1999)	https://doi.org/10.3354/meps179027	Oligotrophic	Bathypelagic	Respiration	Zooplankton		>2250					0.03	0.40	0.10	Spring
+Koppelmann and Weikert (1999)	https://doi.org/10.3354/meps179027	Oligotrophic	Bathypelagic	Respiration	Zooplankton		>2250					0.03	0.40	0.10	Summer
+Hernández-León and Ikeda (2005)	https://doi.org/10.1093/plankt/fbh166	Oligotrophic	Bathypelagic	Respiration	Zooplankton		1000	4000				0.32	3.80	1.40	Average value for the bathypelagic zone
+Hernández-León et al. (2020)		Oligotrophic	Bathypelagic	Respiration	Zooplankton		1000	2000						1.90	
+Hernández-León et al. (2020)		Oligotrophic	Bathypelagic	Respiration	Zooplankton		2000	3000						0.90	
+Hernández-León et al. (2020)		Oligotrophic	Bathypelagic	Respiration	Zooplankton		3000	4000						0.20	
+Nagata et al. (2000)	https://doi.org/10.4319/lo.2000.45.2.0426	Productive	Mesopelagic	Respiration	Microplankton		100	1000				42.00	504.00	184.00	Santa Monica Basin
+Arístegui et al. (2003b)	https://doi.org/10.3354/ame033289	Productive	Mesopelagic	Respiration	Microplankton		>200					5.00	60.00	21.90	Lower range in the Coastal Transition Zone Canary Current
+Arístegui et al. (2003b)	https://doi.org/10.3354/ame033289	Productive	Mesopelagic	Respiration	Microplankton		>200					10.00	120.00	43.80	Higher range in the Coastal Transition Zone Canary Current
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Mesopelagic	Respiration	Microplankton		150	1000				3.49	41.90	15.30	Upwelling zone off Perú (Table 5)
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Mesopelagic	Respiration	Microplankton		150	1000				344.93	4139.20	1510.80	Upwelling zone off Perú (Table 5)
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Mesopelagic	Respiration	Microplankton		150	1000				11.46	137.50	50.20	Upwelling zone off Perú (Table 5)
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Mesopelagic	Respiration	Microplankton		150	1000				2.43	29.20	10.60	Upwelling zone off Perú (Table 5)
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Mesopelagic	Respiration	Microplankton		150	1000				2.72	32.60	11.90	Upwelling zone off Perú (Table 5)
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Mesopelagic	Respiration	Microplankton		150	1000				19.57	234.80	85.70	Upwelling zone off Perú (Table 5)
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Mesopelagic	Respiration	Microplankton		150	1000				3.53	42.40	15.50	Upwelling zone off Perú (Table 5)
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Mesopelagic	Respiration	Microplankton		150	1000				6.30	75.60	27.60	Upwelling zone off Perú (Table 5)
+Packard et al. (1988)	https://doi.org/10.1016/0198-0149(88)90016-7	Productive	Bathypelagic	Respiration	Microplankton		>1000							31.30	Pacific Ocean (Costa Rica Dome)
+Turley and Mackie (1994)	https://doi.org/10.3354/meps115191	Productive	Bathypelagic	Respiration	Microplankton		>1000					0.40	4.80	1.80	NE Atlantic
+Nagata et al. (2000)	https://doi.org/10.4319/lo.2000.45.2.0426	Productive	Bathypelagic	Respiration	Microplankton		>1000					0.50	6.00	2.20	Subarctic Pacific
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Bathypelagic	Respiration	Microplankton		>1000					3.07	36.80	13.40	Upwelling zone off Perú (Table 5)
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Bathypelagic	Respiration	Microplankton		>1000					0.38	4.60	1.70	Upwelling zone off Perú (Table 5)
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Bathypelagic	Respiration	Microplankton		>1000					0.34	4.10	1.50	Upwelling zone off Perú (Table 5)
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Bathypelagic	Respiration	Microplankton		>1000					22.51	270.10	98.60	Upwelling zone off Perú (Table 5)
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Bathypelagic	Respiration	Microplankton		>1000					0.79	9.50	3.50	Upwelling zone off Perú (Table 5)
+Packard et al. (2015)	https://doi.org/10.5194/bg-12-2641-2015	Productive	Bathypelagic	Respiration	Microplankton		>1000					1.28	15.40	5.60	Upwelling zone off Perú (Table 5)
+Hernández-León (unpublished)		Productive	Mesopelagic	Respiration	Zooplankton		200	900					22.60	8.30	Coca I cruise. Respiration by day. Upwelling zone Canary Current
+Hernández-León (unpublished)		Productive	Mesopelagic	Respiration	Zooplankton		200	900					90.40	33.00	Coca I cruise. Respiration by day. Oceanic zone Canary Current
+Hernández-León (unpublished)		Productive	Mesopelagic	Respiration	Zooplankton		200	900					21.60	7.90	Coca I cruise. Respiration by night. Oceanic zone Canary Current
+Hernández-León (unpublished)		Productive	Mesopelagic	Respiration	Zooplankton		200	900					62.20	22.70	Coca I cruise. Respiration by night. Oceanic zone Canary Current
+Hernández-León et al. (2020)		Productive	Bathypelagic	Respiration	Zooplankton		1000	2000						1.00	Coastal
+Hernández-León et al. (2020)		Productive	Bathypelagic	Respiration	Zooplankton		1000	2000						3.00	Westerlies

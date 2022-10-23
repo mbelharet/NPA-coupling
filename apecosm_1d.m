@@ -1,0 +1,208 @@
+%clear all
+format long
+
+oxygen_pref =0;
+
+apecosm_resolution = 1;
+SFX = '';
+if(apecosm_resolution)
+   SFX = '_apecosm_resolution'; 
+end
+
+
+if(~exist('len','var'))
+    len = 0.02:0.02:2;
+end
+
+% station et date
+julien_day= 365;
+lat_st = 43.2;
+
+
+
+%% Les paramètres :
+
+origin = 'default';%'calibrated'; %
+
+fileID = fopen(['apecosm_' origin '_parameters_3com.txt']);
+C = textscan(fileID,'%s');
+fclose(fileID);
+
+for i=1:2:length(C{1})
+   
+    eval([C{1}{i} '=' C{1}{i+1} ';'])
+    
+end
+
+
+%% --------------------------------------------------
+% Pathways
+
+    
+pathway = '/media/belharet/HD_belharet/Optimization_admb/outputs/MALASPINA/transect/';
+
+pathway_ = '/media/belharet/HD_belharet/Optimization_admb/data/MALASPINA/';
+
+%%
+
+d_len = get_day_length(julien_day,lat_st);
+
+if(~apecosm_resolution)
+    d = importdata([pathway_ 'depth.txt']);
+    depth = d.data(1:100);
+else
+    load([pathway 'depth_apecosm'])
+    depth = depth_apecosm(depth_apecosm<=1000);
+end
+if(size(depth,1)>1)
+    depth = depth';
+end
+
+%% Dimensions
+
+nw = length(len);
+dn = 2;
+nz = length(depth);
+nL = length(len);
+ng = 3;
+%-------------------------------------------------------------------------------------------------------------
+
+
+%% Environmental variables:
+% par
+
+PAR =  ncread('two-ways/output_pisces/DYFAMED_1d_20000101_20191231_ptrc_T.nc','PAR_APE');% vertical profile
+nt = size(PAR,4);
+light = squeeze(PAR(2,2,1:nz,nt-365 +julien_day));
+% temperature
+TEMPER = ncread('two-ways/output_pisces/DYFAMED_1d_20000101_20191231_grid_T.nc','tem');
+temper = squeeze(TEMPER(2,2,1:nz,nt-365 +julien_day));
+OXY = ncread('two-ways/output_pisces/DYFAMED_1d_20000101_20191231_ptrc_T.nc','O2');
+oxy = squeeze(OXY(2,2,1:nz,nt-365 +julien_day));
+
+
+ADVz = [0.5,ADVz2,ADVz3];%[0.5 0.5 0.5];%
+DIFFz = [0.6,DIFFz2,DIFFz3]; %[6 5 5];% ng x nL
+
+SIGM_LIGHT = [SIGM_LIGHT1,SIGM_LIGHT2,SIGM_LIGHT3];
+OPT_LIGHT = [OPT_LIGHT1,OPT_LIGHT2,OPT_LIGHT3];
+
+EYE_DIAM_ALLOM(1) = EYE_DIAM_ALLOM1;
+EYE_DIAM_ALLOM(2) = EYE_DIAM_ALLOM2; 
+EYE_DIAM_ALLOM(3) = EYE_DIAM_ALLOM3;
+
+if(ng==5)
+    ADVz = [ADVz,ADVz3,ADVz2];
+    DIFFz = [DIFFz,DIFFz3,DIFFz2];
+    SIGM_LIGHT = [SIGM_LIGHT,SIGM_LIGHT4,SIGM_LIGHT5];
+    OPT_LIGHT = [OPT_LIGHT,OPT_LIGHT4,OPT_LIGHT5];
+    
+    EYE_DIAM_ALLOM(4) = EYE_DIAM_ALLOM3;
+    EYE_DIAM_ALLOM(5) = EYE_DIAM_ALLOM2;
+end
+
+for l = 1:length(len)
+      
+%EYE_DIAM_ALLOM = zeros(1,5);
+% Advection-diffusion
+LEN = len(l);
+    ratio_adv_diff = (ADVz ./ DIFFz)./LEN;  % 1 x g
+    diffz = DIFFz .* (LEN.^2); % 1 x g
+    ratio_adv_diff2 = (ADVz .* LEN .* (diffz + DzPHY)) ./ (diffz.^2); % 1 x g
+    eyesurf= LEN .^ (2*EYE_DIAM_ALLOM);% 1 x g
+    
+    ratio_adv_diff = repmat(ratio_adv_diff,dn,1,nz); %dn x ng x nz 
+    diffz = repmat(diffz,dn,1,nz); %dn x ng x nz 
+    ratio_adv_diff2 = repmat(ratio_adv_diff2,dn,1,nz); %dn x ng x nz 
+    EYESURF = repmat(eyesurf,dn,1,nz);  %dn x ng x nz 
+
+
+% temperature:
+temper_pref = ones(ng,nz); % ng x nz
+Tcor = exp(Ta ./ Tref - Ta ./ (temper' + 273.15)); %nz
+Tcor0 = squeeze(Tcor(1,:));
+
+temper_pref(1,:) = exp(-.5 * (((Tcor - 1.) ./ SIGM_TCOR0).^2)); % ng x nz
+temper_pref = repmat(temper_pref,1,1,dn); temper_pref = permute(temper_pref,[3,1,2]); %dn x ng x nz 
+
+% oxygen
+
+
+oxy_pref = ones(ng,nz); % ng x nz 
+if(oxygen_pref)
+  oxy_pref(2,:) = 1. ./ (1. + exp((OXYRESP2 .* (OXYLIM2 - oxy'))));
+ 
+  oxy_pref(3,:) = 1. ./ (1. + exp((OXYRESP3 .* (OXYLIM3 - oxy'))));
+  if(ng==5)
+      oxy_pref(5,:) = 1. ./ (1. + exp((OXYRESP5 .* (OXYLIM5 - oxy'))));
+  end
+  %oxy_pref(4,:,:) = 1. ./ (1. + exp((OXYRESP5 .* (OXYLIM5 - oxy))));
+end
+oxy_pref = repmat(oxy_pref,1,1,dn); oxy_pref = permute(oxy_pref,[3 1 2]); %dn x ng x nz
+
+
+
+d_len_ = d_len * ones(dn,ng,nz); % dn x ng x nz x nx
+light_ = repmat(light',dn,1,ng); light_ = permute(light_,[1 3 2]);
+tmplight(1,:,:) = (light_(1,:,:) ./ d_len_(1,:,:))   .* EYESURF(1,:,:) + EPS; % dn x ng x nz   
+tmplight(2,:,:) = (light_(2,:,:) ./(1 - d_len_(2,:,:))) .* nfactor .* EYESURF(2,:,:) + EPS;
+
+
+var_ = log(1. + (SIGM_LIGHT .^2) ./ (OPT_LIGHT .^2));  % 1 x ng
+
+mu = log(OPT_LIGHT) - .5 * var_; % 1 x ng
+
+var_ = repmat(var_,dn,1,nz); % dn x ng x nz 
+
+mu_ = repmat(mu,dn,1,nz); % dn x ng x nz 
+
+sigm = sqrt(var_);  % dn x ng x nz 
+mode_ = exp(mu_ - var_); % dn x ng x nz 
+light_pref(:,:,:,l) = (mode_ ./ tmplight) .* exp(((log(mode_) - mu_).^ 2 - (log(tmplight) - mu_).^ 2) ./ (2. * var_)); % dn x ng x nz 
+
+
+
+% habitat env
+habitat_env(:,:,:,l) = light_pref(:,:,:,l) .* oxy_pref .* temper_pref;
+habitat_env(2,1,:,l) = habitat_env(1,1,:,l); %squeeze(light_pref(1,1,:,:) .* oxy_pref(2,1,:,:) .* temper_pref(2,1,:,:));
+habitat_env(2,3,:,l) = habitat_env(1,3,:,l);
+if(ng==5)
+    habitat_env(2,4,:,l) = habitat_env(1,4,:,l);
+    %habitat_env(2,5,:,:,l) = habitat_env(2,2,:,:,l);
+end
+
+
+ 
+% profile
+habitat_env0 = squeeze(habitat_env(:,:,1,l)); habitat_env0 = repmat(habitat_env0,1,1,nz); %habitat_env0 =permute(habitat_env0,[1,2,4,3]);
+
+profile = exp(ratio_adv_diff2 .* log((habitat_env(:,:,:,l) .* diffz + DzPHY) ...
+        ./ (habitat_env0 .* diffz + DzPHY)) - ratio_adv_diff .* (habitat_env(:,:,:,l) - habitat_env0)); % dn x ng x nz 
+
+
+% profile total sur z
+
+profiletot = squeeze(nansum(profile,3)); profiletot = repmat(profiletot,1,1,nz); % dn x ng x nz 
+
+% profile normalisé
+profile_norm(:,:,:,l) = profile ./ profiletot; % dn x ng x nz x l
+
+end
+
+
+%% 
+
+plotit = 0;
+if(plotit)
+
+    s_c = 1;
+    figure;
+    var = squeeze(profile_norm(1,:,:,s_c));
+    plot(var,-depth)
+
+    figure;
+    var = squeeze(profile_norm(2,:,:,s_c));
+    plot(var,-depth)
+end
+
+

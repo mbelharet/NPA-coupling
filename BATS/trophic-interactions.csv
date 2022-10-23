@@ -1,0 +1,9 @@
+// Trophic interactions between APECOSM communities for day and night. Column 1 = predators
+Day,c1,c2,c3
+c1,1,0,0
+c2,0,0,0
+c3,0,1,1
+Night,c1,c2,c3
+c1,0,0,0
+c2,1,1,0
+c3,0,0,1
